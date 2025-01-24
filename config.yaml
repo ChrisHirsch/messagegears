@@ -1,0 +1,31 @@
+destination:
+  url: "http://example.com/"
+  ApiKey: "YOUR_API_KEY_HERE"
+  CustomerId: "YOUR_CUSTOMER_ID_HERE"
+
+source:
+  url: "https://example-source.com/"
+  ApiKey: "YOUR_SOURCE_API_KEY_HERE"
+  CustomerId: "YOUR_SOURCE_CUSTOMER_ID_HERE"
+
+migrating:
+  templates: False
+  audiences: False
+  databases: False
+
+databases:
+  - name: "Database 1"
+    host: "db1.example.com"
+    port: 5432
+    user: "YOUR_USERNAME"
+    password: "YOUR_PASSWORD"
+  - name: "Database 2"
+    host: "db2.example.com"
+    port: 5432
+    user: "YOUR_USERNAME"
+    password: "YOUR_PASSWORD"
+  - name: "Database 3"
+    host: "db3.example.com"
+    port: 5432
+    user: "YOUR_USERNAME"
+    password: "YOUR_PASSWORD"
